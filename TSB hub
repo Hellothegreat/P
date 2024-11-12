@@ -1,0 +1,72 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("TSB Hub", "Midnight")
+
+local Tab = Window:NewTab("Characters")
+
+local Section = Tab:NewSection("Works on Bald")
+
+Section:NewButton("GOJO", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+    print("Clicked")
+end)
+ 
+ Section:NewButton("Reaper Moveset", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-REAPER-moveset-by-Reap-19624"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mahoraga Moveset", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Mahoraga-22078"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Hulk Moveset", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hulk-Moveset-21960"))()
+    print("Clicked)
+end)
+
+local Section = Tab:NewSection("Works On Garou")
+
+Section:NewButton("Goku Moveset", "Has 5th ability", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Goku-Moveset-V2-17977"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Tools")
+
+local Section = Tab:NewSection("Tools")
+
+Section:NewButton("Shadow Speed", "Adds another ability", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Shadow-speed-22075"))()
+    print("Clicked")
+end)
+
+local Section = Tab:NewSection("More tools Coming soon")
+
+local Tab = Window:NewTab("Others")
+
+local Section = Tab:NewSection("Universal")
+
+Section:NewButton("Bacon Aimlock", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/aim", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Infinite Yeild", "A client Based Admin", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Teleport", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Credits")
+
+local Section = Tab:NewSection("Devoloper")
+
+Section:NewTextBox("Thanks for using my first made script", "GODGAMER14", function(txt)
+	print(Made By GODGAMER14! This is his first script.)
+end)
